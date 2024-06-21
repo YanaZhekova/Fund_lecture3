@@ -1,12 +1,18 @@
-text = input().split(" ")
+numbers = input().split(" ")
 count = int(input())
-numbers = []
-for i in text:
-    current_number = int(i)
-    numbers.append(current_number)
+my_list = []
 
-numbers.sort()
+for i in numbers:
+    number = int(i)
+    my_list.append(number)
+
 for i in range(count):
-    numbers.remove(numbers[0])
-numbers.reverse()
-print(numbers)
+    num = min(my_list)
+    my_list.remove(num)
+
+for i in range(0, len(my_list)):
+    num = str(my_list[i])
+    my_list[i] = num
+
+
+print((", ").join(my_list))
