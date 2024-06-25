@@ -13,19 +13,18 @@ for i in events:
             print(f"You gained {number} energy.")
             print(f"Current energy: {energy}.")
         else:
-            print(f"You gained {100-energy} energy.")
+            print(f"You gained {100 - energy} energy.")
             print(f"Current energy: {100}.")
 
     elif event == "order":
-        if energy - 30 >= 0:
+        if energy - 30 > 0:
             coins += number
             energy -= 30
             print(f"You earned {number} coins.")
         else:
-            if energy + 50 <= 100:
-                energy += 50
-                print("You had to rest!")
-                make_all_events = False
+            energy += 50
+            print("You had to rest!")
+            make_all_events = False
     else:
         if coins - number >= 0:
             coins -= number

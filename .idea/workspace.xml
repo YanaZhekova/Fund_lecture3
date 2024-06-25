@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="223870e2-c013-4f54-ae68-4d4f4f958565" name="Changes" comment="Lecture 3 exercises">
-      <change afterPath="$PROJECT_DIR$/bread_factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello_france.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bread_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/bread_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seize_the_fire.py" beforeDir="false" afterPath="$PROJECT_DIR$/seize_the_fire.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     "Python.number_beggars.executor": "Debug",
     "Python.numbers_filter.executor": "Run",
     "Python.search.executor": "Run",
-    "Python.seize_the_fire.executor": "Debug",
+    "Python.seize_the_fire.executor": "Run",
     "Python.strange_zoo.executor": "Run",
     "Python.survival_of_the_biggest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -62,7 +62,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.bread_factory">
+  <component name="RunManager" selected="Python.seize_the_fire">
     <configuration name="bread_factory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Fund_lecture3" />
       <option name="ENV_FILES" value="" />
@@ -180,9 +180,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.seize_the_fire" />
         <item itemvalue="Python.bread_factory" />
         <item itemvalue="Python.hello_france" />
-        <item itemvalue="Python.seize_the_fire" />
         <item itemvalue="Python.easter_gift" />
         <item itemvalue="Python.survival_of_the_biggest" />
       </list>
@@ -206,7 +206,7 @@
       <updated>1718707104030</updated>
       <workItem from="1718707105381" duration="2017000" />
       <workItem from="1718784616759" duration="14333000" />
-      <workItem from="1719291022246" duration="4774000" />
+      <workItem from="1719291022246" duration="7142000" />
     </task>
     <task id="LOCAL-00001" summary="Lecture 3 exercises">
       <option name="closed" value="true" />
@@ -240,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718955193563</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lecture 3 exercises">
+      <option name="closed" value="true" />
+      <created>1719295928575</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719295928575</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +303,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/seize_the_fire.py</url>
-          <line>5</line>
+          <line>6</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -326,6 +334,6 @@
     <SUITE FILE_PATH="coverage/Fund_lecture3$list_statistics.coverage" NAME="list_statistics Coverage Results" MODIFIED="1718707993977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Fund_lecture3$faro_shuffle.coverage" NAME="faro_shuffle Coverage Results" MODIFIED="1718865013991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Fund_lecture3$courses.coverage" NAME="courses Coverage Results" MODIFIED="1718707616087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Fund_lecture3$seize_the_fire.coverage" NAME="seize_the_fire Coverage Results" MODIFIED="1718954873694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Fund_lecture3$seize_the_fire.coverage" NAME="seize_the_fire Coverage Results" MODIFIED="1719298667091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
